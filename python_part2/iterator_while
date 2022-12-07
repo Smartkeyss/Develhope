@@ -1,0 +1,9 @@
+n = 4
+counter = 1
+while counter <= n:
+    j = 1
+    while j <= counter:
+        print("*", end= " ")
+        j += 1
+    print()
+    counter += 1
